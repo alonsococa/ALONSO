@@ -77,9 +77,36 @@ padding: 0 !important;
 }
 .foot{
 	font-size: 18pt;
+
+}
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
 }
 .text.nombre{
 	color: rgb(164,164,163);
 	font-weight: lighter;
 	font-size: 9pt;
+}
+.card-cuerpo{
+	padding: 15px;
+
 }
