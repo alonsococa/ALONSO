@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SB Admin - Start Bootstrap Template</title>
+  <!-- Bootstrap core CSS-->
+  <link href="css/bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="css/menu-sidebar.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+   <div class="carousel-inner">
+         <div class="item active">
+            <img src="img/ilustracion.jpg" class="adaptar">
+          </div>
+  <div id="wrapper">
+    <div class="overlay"></div>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="sidebar-wrapper">
+      <ul class="nav sidebar-nav">
+        <li class="sidebar-brand"> 
+          <a href="#">Inicio</a>
+        </li>
+        <li><a href="#">Michelle Panameño</a></li>
+      
+      </ul>
+    </nav>
+
+
+    <div id="page-content-wrapper">
+      <button type="button" data-toggle="offcanvas" class="hamburger is-closed">
+        <span class="hamb-top"></span>
+         <span class="hamb-middle"></span>
+          <span class="hamb-bottom"></span>
+      </button>
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="img/MICHELLE.jpg" class="adaptar img-fluid">
+        </div>
+         <div class="col-md-7">
+           <h1 class="text">Hola soy Michelle Panameño</h1>
+           <br>
+           <p> El diseño Grafico es mi medio de expresion, es como el instrumento en el que pongo todos mis sentimientos emociones y habilidades como diseñadora, a lo largo de mi carrera he adquirido nuevas experiencias que me han motivado y ahora se que el diseño grafico es una de las carreras mas cercanas a lo que me gusta hacer. 
+
+            hoy en dia poseo conocimientos de dibujo manual e ilustracion digital manejo programas como photoShop, illustrator, Indesing, paint tool sai.
+        </p>
+           <br>
+
+
+         </div>
+         </div>
+         <br>
+         <div class="row mb-4">
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="img/ILUBRUJA.jpg" class="adaptar img-fluid">
+              <div class=" card-body">
+                <h4> ilustracion flat Desing</h4>
+                <br>
+                <p class="text-member"> Position Member</p>
+                <br>
+                <p> La ilustracion flat desing es particularmente plano. Así que para estar a la última y hacer cosas contemporáneas  la simplificación es la clave. esta ilustracion es de una caricatura que se representa en un cuento infantil </p>
+                <br>
+                <a href="">conoce mas</a>
+              </div>    
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="img/ILUBREE.jpg" class="adaptar img-fluid">
+              <div class=" card-body">
+                <h4>Ilustracion Estilizada</h4>
+                <br>
+                <p class="text-member"> Position Member</p>
+                <br>
+                <p> ilustracion vectorial tiene un toque moderno y un estilo inusual  que no es del todo estilizado pero que es atractiva visualmente, esta ilustracion reprenta una la mujer moderna con una figuras diferente  </p>
+                <br>
+                <a href="">conoce mas</a>
+              </div>    
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card text-center">
+              <img src="img/AVATAR.jpg" class="adaptar img-fluid">
+              <div class=" card-body">
+                <h4>Caricatura Autorretrato</h4>
+                <br>
+                <p class="text-member"> Position Member</p>
+                <br>
+                <p> avatar es un tipo de ilustracion muy especial es  una caricatura de autorretrato
+                 Es uno de los ejercicios de análisis más profundos que puede hacer un artista. Implica escrutarse el rostro y curpo es conocerse hasta tal punto que la expresión que tenga en ese momento se traduzca en el dibujo.</p>
+                <br>
+                <a href="">conoce mas</a>
+              </div>    
+            </div>
+          </div>
+           
+         </div>
+         <footer class="py-5bg-dark">
+           <div class="container">
+             <p class="text-center text-white">PA09068 &copy;Michelle Panameño</p>
+           </div>
+         </footer>
+
+       </div>
+      </div>
+
+
+
+ 
+    <!-- Bootstrap core JavaScript-->
+    <script src="js/jquery/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
+    <script src="js/sb-admin.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function () {
+          var trigger = $('.hamburger'),
+          overlay = $('.overlay'),
+          isClosed = false;
+
+          trigger.click(function () {
+          hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+        if (isClosed == true) {          
+          overlay.hide();
+          trigger.removeClass('is-open');
+          trigger.addClass('is-closed');
+          isClosed = false;
+        } else {   
+          overlay.show();
+          trigger.removeClass('is-closed');
+          trigger.addClass('is-open');
+          isClosed = true;
+        }
+      }
+
+      $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+      });  
+    });
+  </script> 
+</div>
+</body>
+  </footer>
+
+    </div>
+  
+
+    <script src="js/jquery/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap/bootstrap.js"></script>
+
+  </body>
+
+</html>
+
+
+</html>
+
+
+
+
+<!-- Estructura de bootstrap
+1 se decide o no si se declara antes una div con una clase personal 
+2 declara uncontenedor de los dos existentes 
+class="container"
+class="container- fluid"
+3 declara una fila class="row"
+declaran las colunmas cuya sumnatoria sera siempre 12 
+class="col-md-6"
+class="col-md-6"
+5 se procede a crear nuestro diseño
+ -->
