@@ -110,3 +110,33 @@ body, html {
 	padding: 15px;
 
 }
+.nopadding{
+padding: 0 !important;
+}
+
+.nomargin{
+  margin:0 !important;
+}
+
+.img-fluid{
+	width: 100%;
+	height: auto;
+	float: left;
+
+}
+.mb-4{
+	margin-bottom: 4%
+}
+
+.card{
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction:column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: rgb(255,255,255);
+	border: 1px solid rgb(75,75,75);
+	border-radius: 5px;
+}
