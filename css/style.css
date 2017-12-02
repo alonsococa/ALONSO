@@ -78,3 +78,8 @@ padding: 0 !important;
 .foot{
 	font-size: 18pt;
 }
+.text.nombre{
+	color: rgb(164,164,163);
+	font-weight: lighter;
+	font-size: 9pt;
+}
